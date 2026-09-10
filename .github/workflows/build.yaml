@@ -15,7 +15,7 @@ jobs:
       - run: mkdir export
 
       - name: Compile 'report.typ'
-        run: typst compile report.typ export/report.pdf
+        run: typst compile report/report.typ export/report.pdf
 
       - name: Render report
         run: typst compile report/report.typ report.pdf
