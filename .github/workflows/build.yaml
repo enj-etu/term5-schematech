@@ -14,6 +14,13 @@ jobs:
 
       - run: mkdir export
 
+      - name: Set up templates
+        uses: actions/checkout@v6
+        with:
+          repository: 'm1raynee/typst-templates'
+          path: 'report/typst-templates'
+          ref: 'main'
+
       - name: Compile 'report.typ'
         run: typst compile report/report.typ export/report.pdf
 
