@@ -17,15 +17,15 @@
 
 #figure(
   caption: [Caption],
-  image("/report/assets/123.png")
+  image("../assets/123.png")
 )
 
-#image("/report/assets/image.png")
+#image("../assets/image.png")
 
 
 == Модификация
 В качестве модификации модели были изменены расположение центра отверстия, а также толщина блока.
-#image("/report/assets/image-1.png")
+#image("../assets/image-1.png")
 
 == Вывод
 В ходе работы были освоены основные навыки работы в PTC Creo, работа с выдавливанием, созданием различных базовых ограничений, добавления отверстий.
